@@ -10,7 +10,7 @@ function mostrar()
 
 	edad = document.getElementById("laEdad").value;
 
-	alert("Su nombre es "+nombre+" y tiene "+edad+" años.");
+	alert("Su nombre es " + nombre + " y tiene " + edad + " años.");
 
   /* pido los datos de su "nombre y edad " tomando una variable 
   distinta para cada dato y pedimos mediante document.getelementbyid y los

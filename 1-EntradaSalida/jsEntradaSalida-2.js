@@ -10,7 +10,9 @@ function mostrar()
 y finaliza donde yo quiera y tomando la lineas que yo quiera dandole fin con */
 
 var nombre;
+
 nombre = prompt("su nombre es : " , "fulanito");
+
 alert(nombre);
 // el prompt no esta bien escrito si no tiene la variable y el igual a su izquierda.
 }

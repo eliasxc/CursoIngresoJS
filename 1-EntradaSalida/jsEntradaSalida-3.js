@@ -8,8 +8,11 @@ function mostrar()
     console.log("elias");
 */
    var nombre;
+
    nombre = document.getElementById('elNombre').value;
-    alert(nombre);
+   
+   alert(nombre);
+   
 }
 
 

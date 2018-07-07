@@ -20,7 +20,7 @@ function SacarResto()
 
 	resto = (Ndividendo % Ndivisor);
 
-	alert ("el resutado es: "+ resto);
+	alert ("el resutado es: " + resto);
 
 
 }

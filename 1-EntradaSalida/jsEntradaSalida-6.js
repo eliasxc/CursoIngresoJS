@@ -19,7 +19,7 @@ function sumar()
 
     resultado = (numeroUno + numeroDos);
 
-    alert ("el resultado es : "+resultado);
+    alert ("el resultado es : " + resultado);
 
     /*  tomo dos variables numericas y las sumo mediante otra 
        variable nueva llamada resultado, mediante + , utilizo 
