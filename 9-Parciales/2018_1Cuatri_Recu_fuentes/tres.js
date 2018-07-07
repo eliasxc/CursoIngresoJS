@@ -4,20 +4,24 @@ function mostrar()
 
     precio = prompt("ingrese precio: ");
 
-    porcentaje = prompt("ingrese descuento: " , "%");
+    precio = parseInt(precio);
+
+    porcentaje = prompt("ingrese descuento: " , "%")
+
+    porcentaje = parseInt(porcentaje);
 
     descuento = porcentaje/100 ;
 
-    Ddescuento = precio * descuento ;
+    DineroDescuento = precio * descuento ;
 
-    Pdescuento = precio - Ddescuento ;
+    PrecioDescuento = precio - Ddescuento ;
 
-    IVA = 21 / precio ;
+    IVA = precio * 0.21 ;
 
-    alert ("el precio del descuento sera")
+    alert ("el precio del descuento sera: " + DineroDescuento + " y el precio con el descuento sera :" + PrecioDescuento + " y el IVA sera: " + IVA);
 
+    Preciofinal = PrecioDescuento + IVA ;
 
-
-
+    document.getElementById('elPrecioFinal').value = Preciofinal ;
 
 }
