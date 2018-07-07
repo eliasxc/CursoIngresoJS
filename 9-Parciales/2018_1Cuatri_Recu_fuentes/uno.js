@@ -1,22 +1,18 @@
 
 function mostrar()
 {
-var base , altura;
+  var ancho , largo ;
 
-base = prompt( "ingrese base: ");
+  ancho = prompt("ingrese amcho: ");
 
-base = parseint(base);
+  ancho = parseInt(ancho);
 
-altura = prompt("ingrese altura: ");
+  largo = prompt("ingreselargo: ");
 
-altura = parseint(altura);
+  largo = parseInt(largo);
 
-perimetro = base * 3 ;
+  perimetro = 2 * largo + 2 * ancho ;
 
-supertficie = (base*altura) / 2;
-
-alert ("el primetro sera: " + perimetro + "y la superficie: " + superficie);
-
-
+  alert("el perimetro sera: " + perimetro );
 
 }
