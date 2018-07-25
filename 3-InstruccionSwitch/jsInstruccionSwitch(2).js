@@ -17,25 +17,26 @@ switch (mesDelAño)
   	case "Mayo" : 
 
   	case "Junio" :
-  	{
+  	
   		alert("Falta para el invierno");
-  		break ;
-  	}
+  		
+      break ;
+  	
 
   	case "Julio" :
 
   	case "Agosto" :
-  	{
+  	
   		alert("Abrigate que hace frio");
-  		break ;
-  	}
+  		
+      break ;
+  	
 
   	default :
-  	{
+  	
   		alert("Ya pasamos el frio , ahora calor !!!");
-  		break ;
-
-  	}
+  		
+      break ;
   }
 
 //default es una funcion parecida al else.
