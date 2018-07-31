@@ -18,13 +18,11 @@ function mostrar()
 			maximo = numero ;
 			//flag = 1 ;
 		}
-		else  {
-	        if (numero < minimo) {
+	    if (numero < minimo) {
 			 	minimo = numero ; 
-			}
-			if (numero > maximo) {
+		}
+		if (numero > maximo) {
 				maximo = numero ; 
-			}
 		}
 		
 

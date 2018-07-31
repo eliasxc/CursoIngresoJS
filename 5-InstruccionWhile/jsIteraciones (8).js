@@ -23,8 +23,6 @@ while(respuesta != "no" )
         {
         	negativo = negativo * numero ;	
         }
-        else {}
-                }
 		respuesta = prompt( " ¿ Desea continuar ?    (si/no)") ;
 	}
 
